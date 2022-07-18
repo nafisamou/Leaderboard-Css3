@@ -5,13 +5,24 @@
  padding: 0;
  box-sizing:border-box ;
  font-family: 'Poppins', sans-serif;
- background: #F3F1FF;
 }   
+body{
+    background-color:#E5E5E5; 
+}
+main{
+    display: flex;
+    justify-content: center;
+}
 .container{
    background:#FFFFFF;
    width: 870px;
+   padding: 30px;
 }
 /* top players styles */
+.section-tittle{
+    color: #562EFF;
+    font-size: 24px;
+}
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -28,4 +39,7 @@
     height: 56px;
     /* left: 315px;
     top: 239px; */
+}
+.player-name{
+    margin-left: 16px;
 }
