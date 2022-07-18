@@ -1,0 +1,31 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=Merriweather+Sans:ital@1&family=Overpass&family=Poppins:wght@400;500&family=Roboto+Slab&display=swap');  
+/*common style  */
+*{margin: 0;
+ padding: 0;
+ box-sizing:border-box ;
+ font-family: 'Poppins', sans-serif;
+ background: #F3F1FF;
+}   
+.container{
+   background:#FFFFFF;
+   width: 870px;
+}
+/* top players styles */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+
+.player img{
+    /* position: absolute; */
+    width: 56px;
+    height: 56px;
+    /* left: 315px;
+    top: 239px; */
+}
