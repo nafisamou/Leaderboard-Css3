@@ -221,6 +221,9 @@ hr {
 /*--------- media queires --------*/
 /*------ mobile devices------ */
 @media only screen and (max-width:688px) {
+    .nav-right{
+        display: block;
+    }
     .container {
         width: 100%;
     }
@@ -254,9 +257,7 @@ hr {
     .blogs {
         grid-template-columns: repeat(2, 1fr);
     }
-    .nav-right{
-        display: block;
-    }
+    
 
     /* justify-content: center;} */
     /* .courses{grid-template-columns: repeat(3,1fr);} */
